@@ -46,7 +46,7 @@ repo, I don't need to worry that the author is my work account.
 
    With each command, you may see this kind of warning, type `yes`:
 
-   ```shell
+   ```
    The authenticity of host 'github.com (192.30.252.1)' can't be established.
    RSA key fingerprint is xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:
    Are you sure you want to continue connecting (yes/no)?
@@ -65,7 +65,7 @@ repo, I don't need to worry that the author is my work account.
 6. Now you can clone your personal repository with the personal ssh setup, e.g.
    ```shell
    $ git clone git@github-personal:hotternative/hotternative.github.io.git /path/to/personal/project
-   
+   ```
 7. Before start working on your personal project, make sure to configure git username and email to be 
 the personal one, e.g.
     ```shell
