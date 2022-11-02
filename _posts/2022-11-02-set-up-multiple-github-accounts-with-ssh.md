@@ -1,5 +1,5 @@
 ---
-title: "Using multiple github accounts with ssh keys"
+title: "Using multiple GitHub accounts with SSH"
 date: 2022-11-02
 ---
 
@@ -9,7 +9,6 @@ when doing git push or pull.
 
 I also want git to distinguish the two accounts automatically, i.e. when committng to my personal 
 repo, I don't need to worry that the author is my work account.
-
 
 
 ## How to?
