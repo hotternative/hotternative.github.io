@@ -1,6 +1,6 @@
 ---
 title: "Test Github Pages locally"
-date: 2022-11-05
+date: 2022-11-03
 ---
 
 Say you made some changes to your GitHub pages, commit and push. You then wait around 2 minutes to see the effect.

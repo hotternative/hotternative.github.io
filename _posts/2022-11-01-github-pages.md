@@ -1,6 +1,6 @@
 ---
 title: "Setting up Github Pages in 5 minutes"
-date: 2022-11-04
+date: 2022-11-01
 ---
 
 The official [documentation](https://docs.github.com``/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
@@ -26,6 +26,8 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a
     date: 2022-11-04
     ---
     ```
+    If you add a page that has a date in the future, that page **won't build**.     
+
 
 4. Add pictures:
 
