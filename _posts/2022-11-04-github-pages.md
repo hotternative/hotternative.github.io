@@ -3,7 +3,7 @@ title: "Setting up Github Pages in 5 minutes"
 date: 2022-11-04
 ---
 
-The official [documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+The official [documentation](https://docs.github.com``/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 is long-winded. The essential steps are:
 
 1. Create a repository 
