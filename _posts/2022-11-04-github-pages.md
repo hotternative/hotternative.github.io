@@ -14,7 +14,7 @@ is long-winded. The essential steps are:
 2. Activate Github Pages: 
 
     Navigate to the settings page of the repository on GitHub, find the Github "pages" section and 
-    select the branch and directory using the select source dropdown. Follow a more detailed instruction [here](
+    select the branch and directory using the select source dropdown. You can follow a more detailed instruction [here](
 https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch).
 
 3. Add posts:
@@ -27,3 +27,10 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a
     ---
     ```
 
+4. Add pictures:
+    If you want to add pictures, save them in `/assets` under the root of the repo 
+    and reference the picture like: 
+    ```
+     ![text_to_show](/assets/picture_to_show.png)
+    ```
+   Don't forget to also commit and push the picture to make it appearing on the actual page!
