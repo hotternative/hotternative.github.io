@@ -8,8 +8,8 @@ is long-winded. The essential steps are:
 
 1. Create a repository 
 
-The repository must be named `<user>.github.io` and `user` must be lowercased:
-![example](/assets/create-repository-name-pages.png)
+    The repository must be named `<user>.github.io` and `user` must be lowercased:
+    ![example](/assets/create-repository-name-pages.png)
 
 2. Activate Github Pages: 
 
