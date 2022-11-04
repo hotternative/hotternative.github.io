@@ -22,4 +22,5 @@ bundle install  # this is required for the first time only
 bundle exec jekyll serve
 ```
 
-Reference: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+Reference: 
+[docs.github.com](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
