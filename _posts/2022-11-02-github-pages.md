@@ -11,12 +11,14 @@ If you're creating a user or organization site,
 your repository must be named <user>.github.io or <organization>.github.io. 
 If your user or organization name contains uppercase letters, you must lowercase the letters. 
 
-2. To activate Github pages:
-Navigated to the settings page of the repository on Github.
-On the settings page, find the Github "pages" section.
-In the Github pages section, select the main branch using the select source dropdown.
+2. To activate Github pages: 
 
-3. Add posts
-Add posts in `_posts` directory
+    Navigated to the settings page of the repository on Github.
+    On the settings page, find the Github "pages" section.
+    In the Github pages section, select the main branch using the select source dropdown.
+
+3. Add posts:
+
+   Add posts in `_posts` directory
 
 
