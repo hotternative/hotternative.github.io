@@ -28,6 +28,7 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a
     ```
 
 4. Add pictures:
+
     If you want to add pictures, save them in `/assets` under the root of the repo 
     and reference the picture like: 
     ```
