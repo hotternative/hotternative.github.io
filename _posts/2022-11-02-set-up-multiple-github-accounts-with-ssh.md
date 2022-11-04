@@ -54,11 +54,11 @@ repo, I don't need to worry that the author is my work account.
 
    If everything is OK, you will see these messages:
 
-   ```shell
+   ```
    Hi <work_username>! You've successfully authenticated, but GitHub does not provide shell access.
    ```
    
-   ```shell
+   ```
    Hi <personal_username>! You've successfully authenticated, but GitHub does not provide shell access.
    ```
 
