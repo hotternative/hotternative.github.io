@@ -10,7 +10,7 @@ is long-winded. The essential steps are:
 The repository must be named `<user>.github.io` and `user` must be lowercased.
 ![example](/assets/create-repository-name-pages.png)
 
-2. To activate Github pages: 
+2. Activate Github Pages: 
 
     Navigate to the settings page of the repository on GitHub, find the Github "pages" section and 
     select the branch and directory using the select source dropdown, following the instruction [here](
