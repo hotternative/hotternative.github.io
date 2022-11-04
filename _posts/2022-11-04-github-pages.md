@@ -14,7 +14,7 @@ The repository must be named `<user>.github.io` and `user` must be lowercased.
 
     Navigate to the settings page of the repository on GitHub, find the Github "pages" section and 
     select the branch and directory using the select source dropdown, following the instruction [here](
-![abc](/assets/create-repository-name-pages.png)).
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch).
 
 3. Add posts:
 
