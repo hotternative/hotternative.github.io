@@ -12,4 +12,4 @@ selected areas are highlighted
 5. To actually fill, click anywhere in the areas to be dimmed.
 6. If unhappy with the result, press Ctrl + Z to undo.
 
-Reference: https://www.youtube.com/watch?v=rLl_oH6OPmg&ab_channel=badzillacouk
+Reference: https://youtu.be/rLl_oH6OPmg
