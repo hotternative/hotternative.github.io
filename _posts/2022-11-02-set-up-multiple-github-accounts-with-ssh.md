@@ -84,4 +84,4 @@ can be found in `/path/to/personal/project/.git/config`.
     [remote "origin"]
         url = git@github-personal:hotternative/hotternative.github.io.git
    ```
-Reference: https://gist.github.com/oanhnn/80a89405ab9``023894df7
+Reference: [https://gist.github.com/oanhnn/80a89405ab9023894df7]()
