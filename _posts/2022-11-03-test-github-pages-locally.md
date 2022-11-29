@@ -16,11 +16,14 @@ gem "webrick", "~> 1.7"
 
 In terminal:
 ```shell
+export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"  
 rbenv global 3.1.0    
-bundle install  # this is required for the first time only
+cd hotternative.github.io
+bundle install
 bundle exec jekyll serve
 ```
+Then go to [http://127.0.0.1:4000]()
 
 Reference: 
 [docs.github.com](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)

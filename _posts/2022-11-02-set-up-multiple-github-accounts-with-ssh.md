@@ -72,15 +72,16 @@ the personal one, e.g.
    $ cd /path/to/personal/project 
    $ git config --local user.email "l001d@hotmail.com"
    $ git config --local user.name  "hotternative"
+   ```
 If this is forgotten, it's possible to commit inadvertently with work account and then 
-will have to take the pain of rewritting git history which is recommeneded against.
+will have to take the pain of rewritting git his``tory which is recommeneded against.
 
 8. The username and email that are set up in the previous step 
 can be found in `/path/to/personal/project/.git/config`.
 
-    In the config file, update the remote origin to use github-personal 
+    In the config file, update the remote origin to us`e github-personal 
     ```conf
     [remote "origin"]
         url = git@github-personal:hotternative/hotternative.github.io.git
-   
-Reference: https://gist.github.com/oanhnn/80a89405ab9023894df7
+   ```
+Reference: https://gist.github.com/oanhnn/80a89405ab9``023894df7
