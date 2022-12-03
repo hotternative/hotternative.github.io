@@ -1,6 +1,6 @@
 ---
 title: "Build pdf file with Latex in Mac"
-date: 2022-11-12
+date: 2022-11-05
 ---
 
 1. First, uninstall the pre-installed version
