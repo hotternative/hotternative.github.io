@@ -6,7 +6,8 @@ As a software engineer, you would receive many emails and job descriptions from
 recruiters. 
 Say you are open to consider new oppotunities.
 You have a current CV in `.tex` and you receive a stream of job descriptions, 
-See [here](2022-11-05-build-pdf-in-latex.html) about how to build pdf in latex.
+See [here]({% post_url 2022-11-05-build-pdf-in-latex %}) about how to build pdf in latex.
+
 
 * You would like to tailor your CV a bit based on the job description.
 * While creating a tailored CV, you sometimes 
