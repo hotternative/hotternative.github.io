@@ -9,7 +9,6 @@ but they are already tracked. Let's say the file is `1.aux`.
 You added a new line
 to `.gitignore`, e.g. `*.aux` to make git ignore all `.aux` files.
 However, you find `1.aux` still tracked by git.  
-(to be precise, in git staging).
 
 How do you make the change in `.gitignore` take effect?
 
@@ -17,6 +16,8 @@ If there is only one or two files to un-track, simply:
 ```shell
 git rm --cached <file_to_untrack>
 ```
+to instruct git to un-track a file.
+
 
 If there are many files to un-track, consider
 ```shell
@@ -25,9 +26,7 @@ git add .
 ```
 The first step un-tracks all the files and the second adds back al the files that are not git-ignored.
 
-Key take-away:
-Use `git rm --cached <file_name>`to make git un-track a file.
-
+Note:
 What if we don't give `git rm` the `--cached` parameter?
 
 That's a powerful command. 
