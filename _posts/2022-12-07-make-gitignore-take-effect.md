@@ -36,5 +36,7 @@ git actually requires providing `-f` flag when using this, i.e.
 
 
 References:
-[1]: https://sidecode.io/dev-blog/making-gitignore-to-take-effect-gitignore-is-not-working/
-[2]: https://careerkarma.com/blog/git-rm/#:~:text=The%20Git%20rm%20%E2%80%93cached%20flag,index%20tracking%20your%20Git%20project.
+
+[1]: [sidecode.io](https://sidecode.io/dev-blog/making-gitignore-to-take-effect-gitignore-is-not-working/)
+
+[2]: [careerkarma.com](https://careerkarma.com/blog/git-rm/#:~:text=The%20Git%20rm%20%E2%80%93cached%20flag,index%20tracking%20your%20Git%20project.)
