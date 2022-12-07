@@ -2,11 +2,13 @@
 title: "Make gitignore take effect"
 date: 2022-12-07
 ---
-You realise there are files you don't want git to track but they already tracked. 
+You look at your git staging area and
+realise there are files you don't want git to track 
+but they are already tracked. Let's say the file is `1.aux`.
 
 You added a new line
-to `.gitignore`, e.g. `*.aux`. 
-However you still find the file already tracked by git are still there 
+to `.gitignore`, e.g. `*.aux` to make git ignore all `.aux` files.
+However, you find `1.aux` still tracked by git.  
 (to be precise, in git staging).
 
 How do you make the change in `.gitignore` take effect?
