@@ -14,7 +14,7 @@ df.loc[df['column_to_filter'] == some_value, 'column_to_sum'].sum()
 `df.loc[df['column_to_filter'] == some_value]` will filter for the values where the boolean value is `True`, 
 and `column_to_sum` will then select the specific column to sum on.
 
-df.loc is a powerful tool. It also works on row label. 
+`df.loc` is a powerful tool. It also works on row label. 
 See [pandas doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html
 ) for more examples.
 
