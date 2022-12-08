@@ -1,5 +1,5 @@
 ---
-title: "Sum Columns Based on COnditions in Pandas"
+title: "Sum Columns Based on Conditions in Pandas"
 date: 2022-12-08
 ---
 Use the following syntax to sum the values of a column in a pandas DataFrame based on a condition:
