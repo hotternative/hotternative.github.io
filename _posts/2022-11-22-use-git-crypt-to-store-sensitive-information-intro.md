@@ -34,7 +34,7 @@ To set up a repository
 git-crypt init
 ```
 
-See [the next post]({% post_url 2022-11-23-use-git-crypt-to-store-sensitive-information(2) %}) for more information setting it up.
+See [the next post]({% post_url 2022-11-24-use-git-crypt-to-store-sensitive-information-first-user %}) for more information setting it up.
 Reference: 
 
 [1] https://dev.to/heroku/how-to-manage-your-secrets-with-git-crypt-56ih

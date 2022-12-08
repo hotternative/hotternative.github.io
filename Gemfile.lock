@@ -257,6 +257,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 227)
+  jekyll-relative-links
   minima (~> 2.5)
   webrick (~> 1.7)
 

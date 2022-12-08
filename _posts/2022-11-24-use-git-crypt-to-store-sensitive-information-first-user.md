@@ -3,7 +3,7 @@ title: "Set up git-crypt to store sensitive information (2)"
 date: 2022-11-24
 ---
 
-After the initial set-ups in [the previous post]({% post_url 2022-11-22-use-git-crypt-to-store-sensitive-information %}),
+After the initial set-ups in [the previous post]({% post_url 2022-11-22-use-git-crypt-to-store-sensitive-information-intro %}),
 say you have a few secret files in `.gitcrypt_demo_secrets/` that contain secrets you'd like to push to git.
 
 ## Register the files to be encrypted
