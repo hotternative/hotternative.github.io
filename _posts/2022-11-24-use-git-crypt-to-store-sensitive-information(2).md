@@ -1,13 +1,14 @@
 ---
-title: "Set up git-crypt to store sensitive information for a large engineering team"
-date: 2022-11-23
+title: "Set up git-crypt to store sensitive information (2)"
+date: 2022-11-24
 ---
 
 After the initial set-ups in [the previous post]({% post_url 2022-11-22-use-git-crypt-to-store-sensitive-information %}),
-say you have a file `sample.secrets` that contains some secrets you'd like to push to git.
+say you have a few secret files in `.gitcrypt_demo_secrets/` that contain secrets you'd like to push to git.
 
 ## Register the files to be encrypted
-First, register this file in `.gitattributes` by adding a line, e.g.:
+First, register the files to be encrypted
+in `.gitattributes`, e.g.:
 ```
 .gitcrypt_demo_secrets/production_environment.secrets filter=git-crypt diff=git-crypt
 .gitcrypt_demo_secrets/staging_environment.secrets filter=git-crypt diff=git-crypt
@@ -17,26 +18,25 @@ It's also possible to specify a file pattern, e.g.
 *.secrets filter=git-crypt diff=git-crypt
 ```
 ## Generate a new gpg key pair 
-The next step is to add our first user who can see
-the encrypted files. Run 
+The next step is to add our first user. Run 
 ```shell
 gpg --default-new-key-algo rsa3072 --full-generate-key
 ```
 Then select Option 1 and follow the steps to generate the key pair. 
 An email address and a name are required to generate the key pair.
 
-Check the key is imported OK by
-
+Check the key is saved by `gpg`:
 ```shell
 gpg --list-keys  
 ```
 
-Then add the user to git-crypt:
+Then add the key to git-crypt:
 ```shell
 git-crypt add-gpg-user <key_file_name>
 ```
+This will create a `.git-crypt` directory in the root of the repo.
 
-Now it's OK to add secrets into the repo. After adding the secrets
+Now it's OK to add secrets into the repo. After adding the secrets,
 ```shell
 git crypt status
 ```
@@ -47,8 +47,10 @@ not encrypted: .gitattributes
     encrypted: .gitcrypt_demo_secrets/staging_environment.secrets
 ...
 ```
-After this, it's safe to git push the secret file to a remote repo. 
-Say it's a public repo, without a key, it's not possible to see the secrets. for example
+After this, it's safe to git push the secret files to a remote repo.
+Say it's a public repo, without a key, a random internet visitor will 
+not possible to see the secrets, but still able to see the rest of the repo.
+Check this encrypted file out:
 [sample encrypted secret file](https://github.com/hotternative/hotternative.github.io/blob/main/.gitcrypt_demo_secrets/staging_environment.secrets)
 
 Reference: 
