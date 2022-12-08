@@ -47,9 +47,9 @@ not encrypted: .gitattributes
     encrypted: .gitcrypt_demo_secrets/staging_environment.secrets
 ...
 ```
-After this, it's safe to git push the secret files to a remote repo.
-Say it's a public repo, without a key, a random internet visitor will 
-not possible to see the secrets, but still able to see the rest of the repo.
+Only after you see the above message, it's safe to git push the secret files to a remote repo.
+Say it's a public repo, a random internet visitor will 
+only see encrypted version of the secrets.
 Check this encrypted file out:
 [sample encrypted secret file](https://github.com/hotternative/hotternative.github.io/blob/main/.gitcrypt_demo_secrets/staging_environment.secrets)
 
