@@ -1,5 +1,5 @@
 ---
-title: "Setting up Github Pages in 5 minutes"
+title: "Setting up Github Pags"
 date: 2022-11-01
 ---
 
