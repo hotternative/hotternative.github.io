@@ -1,2 +1,2 @@
-.gitcrypt_demo/production_environment.secrets filter=git-crypt diff=git-crypt
-.gitcrypt_demo/staging_environment.secrets filter=git-crypt diff=git-crypt
+.gitcrypt_demo_secrets/production_environment.secrets filter=git-crypt diff=git-crypt
+.gitcrypt_demo_secrets/staging_environment.secrets filter=git-crypt diff=git-crypt
