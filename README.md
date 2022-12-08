@@ -7,10 +7,10 @@ If you have any comments to my posts, please leave feedback in the
 Thanks!!
 
 
-🌱 I’m most proficient in Python web development and data analysis.
+🌱 I’m most proficient with web development, data pipelines and data analysis with Python. 
 
-👀 I'm experienced with cloud-based large-scale projects.
+👀 I'm experienced with cloud-based large-scale projects on AWS.
 
-💞️ I’m open to collaboration oppotunities on side projects.
+💞️ I’m open to collaboration opportunities on side projects.
 
 📫 How to reach me: l001d at hotmail dot com
