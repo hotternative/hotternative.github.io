@@ -5,7 +5,7 @@ If you have any comments to my posts, please leave feedback in the
 Thanks!!
 
 
-🌱 I’m most proficient with web development, data pipelines and data analysis with Python. 
+🌱 I’m most proficient with Python backend web development, data pipelines and data analysis. 
 
 👀 I'm experienced with cloud-based large-scale projects on AWS.
 
