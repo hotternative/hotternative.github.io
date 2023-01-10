@@ -4,10 +4,8 @@ date: 2022-11-11
 ---
 As a software engineer, you would receive many emails and job descriptions from
 recruiters. 
-Say you are open to consider new oppotunities.
+Say you are open to consider new opportunities.
 You have a current CV in `.tex` and you receive a stream of job descriptions, 
-See [here]({% post_url 2022-11-05-build-pdf-in-latex %}) about how to build pdf in latex.
-
 
 
 * You would like to tailor your CV a bit based on the job description.
@@ -20,3 +18,5 @@ Here is my workflow:
 branch out for individual applications (save job description in branch)
 3. Build PDF in the branch.
 4. Merge useful bits in the branch's `.tex` file back to master.
+
+See [here]({% post_url 2022-11-05-build-pdf-in-latex %}) about how to build pdf in latex.
