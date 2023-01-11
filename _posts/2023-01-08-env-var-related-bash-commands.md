@@ -32,4 +32,11 @@ pyenv virtualenv PYTHON_VERSION "py-${PYTHON_VERSION}"
 ```
 See [my previous post]({% post_url 2023-01-01-pyenv %}) for how pyenv Works and how to use it.
 
+Bonus: to set up an env var in Python:
+```python
+import os
+os.environ["VAR_NAME"] = var_value
+```
+Note that var_value must be of string type.
+
 Reference: https://linuxize.com/post/bash-concatenate-strings/
