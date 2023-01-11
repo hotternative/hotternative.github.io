@@ -24,8 +24,8 @@ echo $<key>
 will print the value of a specific key.
 
 Finally, env vars can be used as parts of other command.
-Say you have a pyenv environment 3.9.12, and you want to create a new pyenv virtual environment with it, the following
-will do:
+Say you have a pyenv environment 3.9.12, and you want to create a new pyenv virtual environment with it, 
+the following will do:
 ```shell
 export PYTHON_VERSION=3.9.12
 pyenv virtualenv PYTHON_VERSION "py-${PYTHON_VERSION}" 
