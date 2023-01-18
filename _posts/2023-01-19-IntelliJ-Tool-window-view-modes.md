@@ -8,6 +8,7 @@ In IntelliJ there are multiple options regarding "View Modes"
 
 
 What are the differences between these options?
+
 First of all, in this blog, a "window" means an area in IntelliJ like "Project", "Terminal", "Database", etc.
 
 * "Dock" means the window occupies a fixed area in the screen, 
