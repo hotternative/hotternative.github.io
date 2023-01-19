@@ -9,7 +9,7 @@ df.loc[df['column_to_filter'] == some_value, 'column_to_sum'].sum()
 
 `df['column_to_filter'] == some_value` will generate a boolean array. In 
 [pandas doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html
-), this is known as an "alignable boolean Series".
+), this is known as an "align-able boolean Series".
 
 `df.loc[df['column_to_filter'] == some_value]` will filter for the values where the boolean value is `True`, 
 and `column_to_sum` will then select the specific column to sum on.
