@@ -1,6 +1,6 @@
 ---
 title: "Entering path in Mac Finder"
-date: 2023-01-20
+date: 2023-01-10
 ---
 
 As a developer, you might have a file path in clipboard 

@@ -1,10 +1,10 @@
 ---
 title: "Comparing IntelliJ Tool Window View Modes"
-date: 2023-01-19
+date: 2023-01-15
 ---
 
 In IntelliJ there are multiple options regarding "View Modes"
-![Different View Modes](/assets/tool_window_view_modes.png)
+![Different View Modes](/assets/tool-window-view-modes.png)
 
 
 What are the differences between these options?
