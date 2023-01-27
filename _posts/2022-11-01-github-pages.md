@@ -37,3 +37,9 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a
      ![text_to_show](/assets/picture_to_show.png)
     ```
    Don't forget to also commit and push the picture to make it appearing on the actual page!
+
+5. Troubleshooting:
+If your github page fails deploy due to timeout, check the size of your artifact (should be less than 1GB)
+and also check the status of github: https://www.githubstatus.com/
+
+Reference: https://github.com/community/community/discussions/35197
