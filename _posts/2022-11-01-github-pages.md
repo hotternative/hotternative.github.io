@@ -14,8 +14,9 @@ is long-winded. The essential steps are:
 2. Activate Github Pages: 
 
     Navigate to the settings page of the repository on GitHub, find the Github "pages" section and 
-    select the branch and directory using the select source dropdown. You can follow a more detailed instruction [here](
-https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch).
+    select the branch and directory using the select source dropdown. 
+   You can follow a more detailed instruction [here](
+   https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch).
 
 3. Add posts:
 
@@ -42,4 +43,8 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a
 If your github page fails deploy due to timeout, check the size of your artifact (should be less than 1GB)
 and also check the status of github: https://www.githubstatus.com/
 
-Reference: https://github.com/community/community/discussions/35197
+    Reference: https://github.com/community/community/discussions/35197
+
+6. Add a comment section
+
+    Refer to: https://webapps.stackexchange.com/questions/165528/how-to-add-comments-in-blog-posts-on-github-pages-websites
